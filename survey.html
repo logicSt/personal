@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="pwstyle.css">
+</head>
+<body>
+    <header>
+        <h1>What do you think about us
+            <span>Contact us at LogicSt</span>
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="survey.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Tell us... Submit your review</h1>
+        <form action="#">
+            <label for="name">Your Name</label>
+                <input type="text" name="name" id="name">
+            <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" required="required">
+            <P>
+                <label for="select"> Select
+                    <select name="select" id="select">
+                        <optgroup label="option group 1">
+                            <option value="option1 one">Option1 One</option>
+                            <option value="option1 two">Option1 Two</option>
+                            <option value="option1 three">Option1 Three</option>
+                        </optgroup>
+                        <optgroup label="option group 2">
+                            <option value="option2 one">Option2 One</option>
+                            <option value="option2 two">Option2 Two</option>
+                            <option value="option2 three">Option2 Three</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </P>
+            <P>
+                <label for="checkbox1">Logic:</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox2">Gemma:</label>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for="checkbox3">Logic Gemma:</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </P>
+            <input type="submit" value="Submit"> &nbsp;&nbsp; <input type="reset" value="Reset">
+        </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; <a href="index.html">logicSt.com</a></p>
+    </footer>
+</body>
+</html>
